@@ -19,21 +19,36 @@
   <body>
     <div class="container">
       <div class="input">
-        <p class="alert">Please check your numbers</p>
+        <p id="wrong">Please check your numbers</p>
         <h1>Loan Calculator</h1>
         <form action="#">
           <div>
             <span>$</span>
-            <input type="number" name="amount" id="amount" placeholder="Loan Amount" />
+            <input
+              type="number"
+              name="amount"
+              id="amount"
+              placeholder="Loan Amount"
+            />
           </div>
           <div>
             <span>%</span>
-            <input type="number" name="interest" id="interest" placeholder="Interest" />
+            <input
+              type="number"
+              name="interest"
+              id="interest"
+              placeholder="Interest"
+            />
           </div>
           <div>
-            <input type="number" name="years" id="years" placeholder="Years To Repay"/>
+            <input
+              type="number"
+              name="years"
+              id="years"
+              placeholder="Years To Repay"
+            />
           </div>
-          <input type="submit" value="Calculate" />
+          <input type="submit" value="Calculate" id="submit" />
         </form>
       </div>
       <div class="load">
@@ -66,5 +81,6 @@
         </div>
       </div>
     </div>
+    <script src="script/main.js"></script>
   </body>
 </html>
