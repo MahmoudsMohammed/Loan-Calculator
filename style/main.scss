@@ -1,0 +1,9 @@
+@use './scss/variables' as *;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: $main-color;
+}
